@@ -25,7 +25,7 @@ import java.sql.ResultSet;
 作者：吕志伟
  */
 
-@WebServlet(urlPatterns={"/ImageSearch"})
+@WebServlet(name="ImageSearch",value="/ImageSearch")
 public class ImageSearch extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         doGet(request,response);

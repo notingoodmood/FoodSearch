@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Base64;
 
-@WebServlet(urlPatterns={"/ImageUpload"})
+@WebServlet(name="ImageUpload",value="/ImageUpload")
 public class ImageUpload extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         try{
