@@ -12,6 +12,9 @@ public class DatabaseHelper {
     private Statement statement;
     private Connection connection;
 
+    public static void main(String[] args) {
+        System.out.println("test");
+    }
 
     public void init(){
         if(this.statement==null) {
