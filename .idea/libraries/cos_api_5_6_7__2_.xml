@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cos_api-5.6.7 (2)">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/cos_api-5.6.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

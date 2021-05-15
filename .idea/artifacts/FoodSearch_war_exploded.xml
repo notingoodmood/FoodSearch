@@ -1,0 +1,36 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="FoodSearch:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/FoodSearch_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ARTICLESYSTEM/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ARTICLESYSTEM" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/src/libs/jxl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/libs/servlet-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/libs/cos_api-5.6.7.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/libs/pinyin4j-2.5.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/libs/fastjson-1.2.56.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/libs/qcloudsms-1.0.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/libs/httpclient-4.5.10.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/libs/mysql-connector-java-8.0.7-dmr.jar" />
+          <element id="library" level="project" name="httpclient-4.5.10" />
+          <element id="library" level="project" name="cos_api-5.6.7 (2)" />
+          <element id="library" level="project" name="fastjson-1.2.56" />
+          <element id="library" level="project" name="gson-2.2.4" />
+          <element id="library" level="project" name="javax.xml.bind" />
+          <element id="library" level="project" name="jxl" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.7-dmr" />
+          <element id="library" level="project" name="okhttp-2.5.0" />
+          <element id="library" level="project" name="okio-1.6.0" />
+          <element id="library" level="project" name="pinyin4j-2.5.0" />
+          <element id="library" level="project" name="qcloudsms-1.0.6" />
+          <element id="library" level="project" name="slf4j-api-2.0.0-alpha0 (4)" />
+          <element id="library" level="project" name="tencentcloud-sdk-java-3.0.95" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
